@@ -10,6 +10,7 @@ from scipy.io import wavfile
 import os
 from pydub import AudioSegment
 
+
 # Calculate and plot spectrogram for a wav audio file
 def graph_spectrogram(wav_file):
     rate, data = get_wav_info(wav_file)
